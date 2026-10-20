@@ -1,0 +1,107 @@
+{
+ "slug": "eli-elektro",
+ "zdroj_url": "https://eli-elektro.cz",
+ "firma": "Eli Elektro",
+ "obor": [
+  "stavebnictví a řemesla"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [
+   "m.simcik@eli-elektro.cz"
+  ],
+  "telefony": [],
+  "adresa": "",
+  "socialni_site": []
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://eli-elektro.cz/wp-content/uploads/2026/07/cropped-Logo-eli-NTB.png",
+  "rozmery": [
+   1918,
+   640
+  ]
+ },
+ "barvy": {
+  "css_promenne": {
+   "e-global-color-primary": "#6EC1E4",
+   "e-global-color-secondary": "#54595F",
+   "e-global-color-text": "#7A7A7A",
+   "e-global-color-accent": "#61CE70",
+   "e-global-color-22a05765": "#4054B2",
+   "e-global-color-12f7129": "#23A455",
+   "e-global-color-47d889eb": "#000",
+   "e-global-color-a43a804": "#FFF",
+   "e-global-color-astglobalcolor0": "#2171ff",
+   "e-global-color-astglobalcolor1": "#22d375",
+   "e-global-color-astglobalcolor2": "#0a0a0a",
+   "e-global-color-astglobalcolor3": "#423838",
+   "e-global-color-astglobalcolor4": "#f3f4f6",
+   "e-global-color-astglobalcolor5": "#ffffff",
+   "e-global-color-astglobalcolor6": "#243673",
+   "e-global-color-astglobalcolor7": "#0a0a0a"
+  },
+  "z_css": [
+   "#003399",
+   "#61ce70",
+   "#6ec1e4",
+   "#d9534f",
+   "#ff6900",
+   "#f8f806"
+  ],
+  "z_loga": [
+   "#07d7fd"
+  ],
+  "theme_color": null,
+  "doporucene": [
+   "#07d7fd",
+   "#6ec1e4",
+   "#003399",
+   "#61ce70"
+  ]
+ },
+ "fotky": [],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "Elektrorevize",
+   "zdroj": "https://eli-elektro.cz/"
+  },
+  {
+   "typ": "h1",
+   "text": "Praha a okolí",
+   "zdroj": "https://eli-elektro.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Působnost",
+   "zdroj": "https://eli-elektro.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Pracovní doba",
+   "zdroj": "https://eli-elektro.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Revize elektroinstalací a zařízení, strojů, spotřebičů a hromosvodů",
+   "zdroj": "https://eli-elektro.cz/"
+  },
+  {
+   "typ": "cenik",
+   "text": "Ceník revizí, doprava z Prahy 11, doba 7:00–16:30 po–pá",
+   "zdroj": "https://eli-elektro.cz/cenik/"
+  }
+ ],
+ "chybi": [
+  "e-mail",
+  "telefon (do webu, ne do mailů)",
+  "IČO",
+  "fotky firmy/provozu/produktů (nalezeno 0, potřeba aspoň 6)",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": "Provádím revize elektroinstalací, spotřebičů a strojů. Revize provádím jak v bytech a rodinné výstavbě, ale také v bytových domech, kancelářských budovách a výrovních prostorách.",
+ "koncept": "Revizní protokol: ceník jako řádky protokolu, tmavý rozvaděčový panel"
+}

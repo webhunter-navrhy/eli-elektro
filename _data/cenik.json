@@ -1,0 +1,29 @@
+{
+  "skupiny": [
+    {"nazev": "Revize instalací", "radky": [
+      {"nazev": "Elektroinstalace bytu", "cena": "od 2 000 Kč"},
+      {"nazev": "Rodinný domek", "cena": "od 7 000 Kč"},
+      {"nazev": "Elektrické přípojky", "cena": "od 2 500 Kč"},
+      {"nazev": "Elektroměrový rozváděč", "cena": "od 2 000 Kč"},
+      {"nazev": "Samostatná zásuvka pro spotřebič", "cena": "od 1 500 Kč"},
+      {"nazev": "Rozsáhlé instalace", "cena": "dle ceníku"},
+      {"nazev": "Ochrana před bleskem, 1 svod", "cena": "od 1 200 Kč"},
+      {"nazev": "Ochrana před bleskem, 1 hodina", "cena": "od 1 500 Kč"},
+      {"nazev": "Protokol o určení vnějších vlivů", "cena": "od 3 500 Kč"}
+    ]},
+    {"nazev": "Revize spotřebičů a strojů", "radky": [
+      {"nazev": "Spotřebič s pohyblivým přívodem, do 100 ks", "cena": "85 Kč"},
+      {"nazev": "Spotřebič s pohyblivým přívodem, nad 100 ks", "cena": "75 Kč"},
+      {"nazev": "Pevně připojený spotřebič, do 100 ks", "cena": "85 Kč"},
+      {"nazev": "Pevně připojený spotřebič, nad 100 ks", "cena": "75 Kč"},
+      {"nazev": "Stroje, do 20 ks", "cena": "300 Kč"},
+      {"nazev": "Stroje, nad 20 ks", "cena": "250 Kč"}
+    ]},
+    {"nazev": "Doprava (dojezd z Prahy 11)", "radky": [
+      {"nazev": "Do 100 km, za 1 km", "cena": "15 Kč"},
+      {"nazev": "Nad 100 km, za 1 km", "cena": "10 Kč"},
+      {"nazev": "Ubytování nad 200 km, noc a osoba", "cena": "1 500 Kč"},
+      {"nazev": "Čas strávený na cestě, 1 hodina", "cena": "200 Kč"}
+    ]}
+  ]
+}

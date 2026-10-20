@@ -1,0 +1,52 @@
+{% extends "_base.html" %}
+{% set titulek = 'Elektrorevize Praha a okolí | ' ~ site.nazev %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="stitek">Revize elektro · {{ site.pusobnost }}</p>
+      <h1>Elektrorevize v Praze a okolí</h1>
+      <p class="perex">Revize elektroinstalací a zařízení, strojů, spotřebičů a hromosvodů. Ceny jsou jasné předem.</p>
+      <p class="akce"><a class="tl" href="#cenik">Ceník revizí</a> <a class="tl tl-2" href="#kontakt">Napsat</a></p>
+    </div>
+    <ul class="jistice" role="list" aria-label="Co reviduji">
+      {% for s in data.sluzby %}<li><span class="led" aria-hidden="true"></span><h2>{{ s.nazev }}</h2><p>{{ s.popis }}</p></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+<section class="sekce" id="cenik">
+  <div class="wrap">
+    <p class="stitek stitek-d">Základní ceník</p>
+    <h2>Kolik stojí revize</h2>
+    <div class="protokol">
+      {% for g in data.cenik.skupiny %}
+      <section class="skupina">
+        <h3>{{ g.nazev }}</h3>
+        <ul role="list">
+          {% for r in g.radky %}<li><span class="n">{{ r.nazev }}</span><span class="v" aria-hidden="true"></span><span class="c">{{ r.cena }}</span></li>{% endfor %}
+        </ul>
+      </section>
+      {% endfor %}
+    </div>
+    <p class="pozn">Ceny jsou orientační. U rozsáhlejších instalací se cena určuje podle rozsahu.</p>
+  </div>
+</section>
+<section class="info">
+  <div class="wrap info-grid">
+    <div><p class="stitek">Působnost</p><p class="velke">{{ site.pusobnost }}</p></div>
+    <div><p class="stitek">Pracovní doba</p><p class="velke">{{ site.hodiny }}</p><p>{{ site.hodiny_dny }}</p></div>
+  </div>
+</section>
+<section class="sekce" id="kontakt">
+  <div class="wrap kontakt-grid">
+    <div>
+      <p class="stitek stitek-d">Kontakt</p>
+      <h2>Napište, kolik toho je k revizi</h2>
+      <p>Napište, o jaký objekt jde a kde. Ozvu se s cenou.</p>
+      {% if site.kontakt.email %}<p class="mail"><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>{% endif %}
+    </div>
+    {% include "_formular.html" %}
+  </div>
+</section>
+{% endblock %}
