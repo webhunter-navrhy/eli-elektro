@@ -1,10 +1,8 @@
 {
-  "url": "http://localhost:8792/eli-elektro/",
+  "url": "https://webhunter-navrhy.github.io/eli-elektro/?v=1792494968",
   "ok": true,
   "chyby": [],
-  "varovani": [
-    "Web má noindex (u ostrého webu pravděpodobně chyba)"
-  ],
+  "varovani": [],
   "metriky": {
     "sirky": {
       "1440": {
@@ -32,18 +30,18 @@
         "pocet_pretekajicich": 0
       }
     },
-    "preneseno_PC_MB": 0.13,
+    "preneseno_PC_MB": 0.12,
     "nejvetsi_obrazek_PC": {
       "kB": 47,
-      "url": "http://localhost:8792/eli-elektro/logo-eli.png"
+      "url": "https://webhunter-navrhy.github.io/eli-elektro/logo-eli.png"
     },
-    "snimku_PC": 3,
-    "preneseno_mobil_MB": 0.13,
+    "snimku_PC": 4,
+    "preneseno_mobil_MB": 0.12,
     "nejvetsi_obrazek_mobil": {
       "kB": 47,
-      "url": "http://localhost:8792/eli-elektro/logo-eli.png"
+      "url": "https://webhunter-navrhy.github.io/eli-elektro/logo-eli.png"
     },
-    "snimku_mobil": 4,
+    "snimku_mobil": 6,
     "seo": {
       "title": "Elektrorevize Praha a okolí | Eli Elektro",
       "description": "Revize elektroinstalací, spotřebičů, strojů a hromosvodů v Praze a okolí. Přehledný ceník, pracovní ",
@@ -62,7 +60,7 @@
     "font_nadpis": "Figtree",
     "font_text": "Figtree",
     "podstranky": {
-      "stranek": 1,
+      "stranek": 2,
       "obrazku": 1
     }
   }

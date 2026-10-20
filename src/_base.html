@@ -35,9 +35,12 @@
 </main>
 <footer class="paticka">
   <div class="wrap pat-grid">
-    <p><a href="#cenik">Ceník</a> · © 2026 {{ site.nazev }}{% if site.ico %} · IČO {{ site.ico }}{% endif %}</p>
-    {% if site.kontakt.email %}<p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>{% endif %}
-    {% if site.kontakt.telefon %}<p><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a></p>{% endif %}
+    <a href="{{ url('/') }}" aria-label="Eli Elektro"><img class="pat-logo" src="{{ asset(site.logo) }}" alt="{{ site.nazev }}" height="28"></a>
+    <div class="pat-odkazy">
+      {% if site.kontakt.email %}<a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a>{% endif %}
+      <a href="#cenik">Ceník</a><a href="#kontakt">Objednat revizi</a>
+    </div>
+    <p>© 2026 {{ site.nazev }}</p>
   </div>
 </footer>
 <script src="{{ asset('js/main.js') }}" defer></script>

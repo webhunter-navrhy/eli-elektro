@@ -139,3 +139,11 @@ a { color: inherit; }
 .paticka .pat-grid { display: flex; flex-wrap: wrap; gap: var(--space-3) var(--space-5); align-items: center; justify-content: space-between; }
 .paticka a { color: inherit; }
 @media (min-width: 48em) { .hero-grid { grid-template-columns: 1fr 1fr; } .sluzby .radky { grid-template-columns: 1fr 1fr; } }
+
+/* kolo 3 */
+.sluzby .radky li { background: transparent; border: 0; border-bottom: 1px dotted #7d93c2; border-radius: 0; padding: var(--space-3) 0; }
+.sluzby .radky { column-gap: var(--space-5); }
+.paticka .pat-grid { gap: var(--space-3) var(--space-5); }
+.paticka .pat-logo { height: 28px; width: auto; }
+.paticka .pat-odkazy { display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; }
+.paticka .pat-odkazy a { font-size: 1rem; min-height: 44px; display: inline-flex; align-items: center; }

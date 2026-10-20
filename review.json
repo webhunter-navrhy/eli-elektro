@@ -1,16 +1,18 @@
 {
-  "znamka": 6,
+  "znamka": 7,
   "slabiny": [
-    "Hero (PC 1440, mobil 390): vpravo jsou tři malé tmavé boxy se zelenými tečkami a popisky kolem 11–12 px. Jsou to právě ty „obdélníčky“, které Rafael odmítá, a koncept „revizní protokol / rozvaděčový panel“ z nich vidět není. Oprava: boxy nahradit jedním výrazným motivem z oboru. Může to být SVG kresba rozvaděče (jističe, kontrolky v cyanu loga) nebo karta ve stylu revizní zprávy s poli Objekt / Typ revize / Cena od / Termín. Texty služeb zvětšit aspoň na 15–16 px.",
-    "Celá stránka působí prázdně: hero, ceník, modrý pruh a formulář, bez jediné fotky a bez sekce o tom, pro koho firma pracuje. Oprava: pod hero přidat sekci z popis_webu v briefu. Typy objektů (byty, rodinné domy, bytové domy, kancelářské budovy, výrobní prostory) dát jako řádky protokolu s piktogramy v lince loga a k nim krátký text „Provádím revize…“ v první osobě. Nic dalšího nevymýšlet.",
-    "Modrý pruh Působnost / Pracovní doba (PC buňka 3, mobil 4) je obří plný pás ve stylu statistik a od kontaktu je oddělený. Hlavička má jen odkazy Ceník a Kontakt, chybí v ní tlačítko i e-mail. Oprava: pruh zrušit a Praha a okolí, Po–Pá 7:00–16:30 a dopravu z Prahy 11 dát jako infosloupec v sekci Kontakt pod e-mail m.simcik@eli-elektro.cz. Do hlavičky vpravo přidat tlačítko „Objednat revizi“ (cyan #07d7fd), které vede na formulář. Na konec doplnit patičku s logem, e-mailem a odkazem na ceník."
+    "Hero, rozvaděčový panel (PC 1440 i mobil 390): šestý jistič je natlačený na pravý okraj panelu. Popisky „Spotřebiče“ a „Hromosvody“ se slévají a končí oříznuté jako „Spotřebiče Hromosvo“. Oprava: panel rozšířit nebo jističe zúžit a dát jim stejnou mezeru i vpravo. Popisek „Spotřebiče a stroje“ zkrátit na „Stroje“ (ten už v panelu je, takže jeden jistič ubrat) nebo popisky zalomit na dva řádky. Na mobilu nechat 5 jističů ve dvou řadách nebo celý panel zmenšit tak, aby se vešel s okrajem.",
+    "Sekce Co reviduji (PC buňka 2, mobil 2–3): místo řádků protokolu je tu mřížka 6 stejných bílých karet s rámečkem, tedy zase obdélníčky. Oprava: kartám vzít rámečky a pozadí a udělat z nich řádky, které vypadají jako ceník pod nimi (piktogram, název, krátký text, tenká linka pod každým řádkem). Na PC to mohou být dva sloupce řádků. Texty zůstanou stejné.",
+    "Patička (PC buňka 4 dole, na mobilu v koláži skoro není vidět): je v ní jen „Ceník · © 2026 Eli Elektro“ a e-mail drobným písmem, logo chybí. Oprava: vlevo dát logo logo-eli.png (výška kolem 28 px), vedle e-mail m.simcik@eli-elektro.cz a odkazy Ceník a Objednat revizi písmem aspoň 15 px. Na mobilu to vše dát pod sebe s dotykovými cíli aspoň 40 px."
   ],
-  "zavazne": [],
+  "zavazne": [
+    "Hero (PC 1440 i mobil 390), SVG panel jističů: popisek posledního jističe je oříznutý a překrývá se se sousedním („Spotřebiče Hromosvo“). Na první obrazovce tak je vidět rozbitý a přetékající text."
+  ],
   "silne": [
-    "Je zachované logo ELI-ELEKTRO.CZ vlevo v hlavičce a paleta vychází z brandu: navy, #003399, cyan #07d7fd z loga a zelený akcent.",
-    "Ceník je převzatý z klientova webu a dobře se čte. Řádky s tečkovanými vodítky fungují na PC i na mobilu (390 px), nic nepřetéká.",
-    "Nejsou tu žádná vymyšlená čísla, recenze ani reference. Web je lehký (0,13 MB) a hned je jasné, co firma dělá a kde."
+    "Všechny tři minulé výtky jsou v podstatě opravené. Tři boxy v hero nahradil jeden motiv z oboru (rozvaděč s kontrolkami v cyanu loga). Přibyla sekce o typech objektů s textem v první osobě z popisu webu. Modrý pruh se statistikami zmizel a působnost, pracovní doba a dojezd jsou teď infosloupec pod e-mailem v kontaktu. V hlavičce je cyan tlačítko „Objednat revizi“.",
+    "Ceník jako revizní protokol s tečkovanými vodítky a skutečnými cenami z webu klienta. Je to přehledný hlavní obsah, který drží koncept a na mobilu se dobře láme.",
+    "Brand drží: logo vlevo v hlavičce, cyan #07d7fd z loga, tmavě modrá #003399 a jedno písmo Figtree s funkční diakritikou. Nic vymyšleného, QA bez chyb a bez přetečení na všech 6 šířkách."
   ],
-  "verdikt": "Web je korektní, pravdivý a drží brand, ale je tenký a šablonovitý: hero tvoří tři malé boxy, chybí obraz i sekce pro koho, a koncept revizního protokolu je vidět jen v ceníku. Opravit hero motiv, doplnit sekci typů objektů a sloučit modrý pruh do kontaktu.",
-  "_hash": "ef5b45c8ff4310a52de731b64d45007dabdcafe4"
+  "verdikt": "Kolo opravilo všechny výtky a web je teď jasný, pravdivý a v brandu klienta. Odeslat ale nejde, dokud se nespraví oříznutý popisek v rozvaděči v hero a karty v Co reviduji se nepřevedou na řádky protokolu.",
+  "_hash": "0c27c80cca28b715e31e880d220f779b8fdce2e3"
 }
