@@ -1,0 +1,16 @@
+{
+  "znamka": 6,
+  "slabiny": [
+    "Hero (PC 1440, mobil 390): vpravo jsou tři malé tmavé boxy se zelenými tečkami a popisky kolem 11–12 px. Jsou to právě ty „obdélníčky“, které Rafael odmítá, a koncept „revizní protokol / rozvaděčový panel“ z nich vidět není. Oprava: boxy nahradit jedním výrazným motivem z oboru. Může to být SVG kresba rozvaděče (jističe, kontrolky v cyanu loga) nebo karta ve stylu revizní zprávy s poli Objekt / Typ revize / Cena od / Termín. Texty služeb zvětšit aspoň na 15–16 px.",
+    "Celá stránka působí prázdně: hero, ceník, modrý pruh a formulář, bez jediné fotky a bez sekce o tom, pro koho firma pracuje. Oprava: pod hero přidat sekci z popis_webu v briefu. Typy objektů (byty, rodinné domy, bytové domy, kancelářské budovy, výrobní prostory) dát jako řádky protokolu s piktogramy v lince loga a k nim krátký text „Provádím revize…“ v první osobě. Nic dalšího nevymýšlet.",
+    "Modrý pruh Působnost / Pracovní doba (PC buňka 3, mobil 4) je obří plný pás ve stylu statistik a od kontaktu je oddělený. Hlavička má jen odkazy Ceník a Kontakt, chybí v ní tlačítko i e-mail. Oprava: pruh zrušit a Praha a okolí, Po–Pá 7:00–16:30 a dopravu z Prahy 11 dát jako infosloupec v sekci Kontakt pod e-mail m.simcik@eli-elektro.cz. Do hlavičky vpravo přidat tlačítko „Objednat revizi“ (cyan #07d7fd), které vede na formulář. Na konec doplnit patičku s logem, e-mailem a odkazem na ceník."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Je zachované logo ELI-ELEKTRO.CZ vlevo v hlavičce a paleta vychází z brandu: navy, #003399, cyan #07d7fd z loga a zelený akcent.",
+    "Ceník je převzatý z klientova webu a dobře se čte. Řádky s tečkovanými vodítky fungují na PC i na mobilu (390 px), nic nepřetéká.",
+    "Nejsou tu žádná vymyšlená čísla, recenze ani reference. Web je lehký (0,13 MB) a hned je jasné, co firma dělá a kde."
+  ],
+  "verdikt": "Web je korektní, pravdivý a drží brand, ale je tenký a šablonovitý: hero tvoří tři malé boxy, chybí obraz i sekce pro koho, a koncept revizního protokolu je vidět jen v ceníku. Opravit hero motiv, doplnit sekci typů objektů a sloučit modrý pruh do kontaktu.",
+  "_hash": "ef5b45c8ff4310a52de731b64d45007dabdcafe4"
+}

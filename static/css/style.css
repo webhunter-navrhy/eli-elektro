@@ -123,3 +123,19 @@ a { color: inherit; }
 }
 .hlavicka .logo { display: inline-flex; align-items: center; min-height: 48px; }
 .mail a { display: inline-flex; align-items: center; min-height: 44px; }
+
+/* kolo 2 */
+.rozvadec { width: 100%; max-width: 560px; height: auto; justify-self: center; }
+.sluzby .radky { list-style: none; padding: 0; margin-top: var(--space-4); display: grid; gap: var(--space-3); }
+.sluzby .radky li { display: flex; gap: var(--space-3); align-items: flex-start; padding: var(--space-3); background: #fff; border: 1px solid #d6e0f2; border-radius: 8px; }
+.sluzby .ic { color: var(--accent); flex: none; }
+.sluzby h3 { font-size: var(--step-1); }
+.sluzby p { font-size: 1rem; color: var(--muted); margin-top: .2rem; }
+.udaje { margin-top: var(--space-4); display: grid; gap: .6rem; }
+.udaje div { display: flex; gap: 1rem; border-bottom: 1px dotted #9fb3d9; padding-bottom: .5rem; }
+.udaje dt { min-width: 9rem; font-weight: 600; color: var(--navy); }
+.udaje dd { margin: 0; font-size: 1rem; }
+.hlavicka .nav-cta { background: var(--cyan); color: var(--navy); padding: .5em 1.1em; border-radius: 4px; font-weight: 600; min-height: 44px; display: inline-flex; align-items: center; }
+.paticka .pat-grid { display: flex; flex-wrap: wrap; gap: var(--space-3) var(--space-5); align-items: center; justify-content: space-between; }
+.paticka a { color: inherit; }
+@media (min-width: 48em) { .hero-grid { grid-template-columns: 1fr 1fr; } .sluzby .radky { grid-template-columns: 1fr 1fr; } }

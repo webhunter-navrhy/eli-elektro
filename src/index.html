@@ -2,6 +2,7 @@
 {% set titulek = 'Elektrorevize Praha a okolí | ' ~ site.nazev %}
 {% set cesta = '' %}
 {% block obsah %}
+{% from "_ikony.html" import ikona %}
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
@@ -10,8 +11,31 @@
       <p class="perex">Revize elektroinstalací a zařízení, strojů, spotřebičů a hromosvodů. Ceny jsou jasné předem.</p>
       <p class="akce"><a class="tl" href="#cenik">Ceník revizí</a> <a class="tl tl-2" href="#kontakt">Napsat</a></p>
     </div>
-    <ul class="jistice" role="list" aria-label="Co reviduji">
-      {% for s in data.sluzby %}<li><span class="led" aria-hidden="true"></span><h2>{{ s.nazev }}</h2><p>{{ s.popis }}</p></li>{% endfor %}
+    <svg class="rozvadec" viewBox="0 0 560 330" role="img" aria-label="Schéma rozvaděče s jističi: byty, domy, kanceláře, stroje, spotřebiče, hromosvody">
+      <rect x="4" y="4" width="552" height="322" rx="14" fill="#0d2557" stroke="#23417f" stroke-width="3"/>
+      <rect x="24" y="152" width="512" height="14" fill="#23417f"/>
+      <g font-family="Figtree, sans-serif" font-size="17" font-weight="600" fill="#c9d8f2" text-anchor="middle">
+        {% for x, t, on in [(24,'Byty',1),(116,'Domy',1),(208,'Kanceláře',1),(300,'Stroje',1),(392,'Spotřebiče',1),(484,'Hromosvod',1)] %}
+        <g transform="translate({{ x }},34)">
+          <rect x="4" y="0" width="80" height="228" rx="8" fill="#e9f0fb"/>
+          <rect x="22" y="34" width="44" height="74" rx="6" fill="#06173d"/>
+          <rect x="26" y="40" width="36" height="30" rx="4" fill="#07d7fd"/>
+          <circle cx="44" cy="190" r="7" fill="#61ce70"/>
+          <circle cx="44" cy="190" r="12" fill="none" stroke="#61ce70" stroke-opacity=".4" stroke-width="3"/>
+          <text x="44" y="258" fill="#c9d8f2">{{ t }}</text>
+        </g>
+        {% endfor %}
+      </g>
+      <path d="M24 306h512" stroke="#07d7fd" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+    </svg>
+  </div>
+</section>
+<section class="sekce sluzby" id="sluzby">
+  <div class="wrap">
+    <p class="stitek stitek-d">Co reviduji</p>
+    <h2>Od bytu po výrobní halu</h2>
+    <ul class="radky" role="list">
+      {% for s in data.sluzby %}<li><span class="ic">{{ ikona(s.ikona) }}</span><div><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></div></li>{% endfor %}
     </ul>
   </div>
 </section>
@@ -32,12 +56,6 @@
     <p class="pozn">Ceny jsou orientační. U rozsáhlejších instalací se cena určuje podle rozsahu.</p>
   </div>
 </section>
-<section class="info">
-  <div class="wrap info-grid">
-    <div><p class="stitek">Působnost</p><p class="velke">{{ site.pusobnost }}</p></div>
-    <div><p class="stitek">Pracovní doba</p><p class="velke">{{ site.hodiny }}</p><p>{{ site.hodiny_dny }}</p></div>
-  </div>
-</section>
 <section class="sekce" id="kontakt">
   <div class="wrap kontakt-grid">
     <div>
@@ -45,6 +63,11 @@
       <h2>Napište, kolik toho je k revizi</h2>
       <p>Napište, o jaký objekt jde a kde. Ozvu se s cenou.</p>
       {% if site.kontakt.email %}<p class="mail"><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>{% endif %}
+      <dl class="udaje">
+        <div><dt>Působnost</dt><dd>{{ site.pusobnost }}</dd></div>
+        <div><dt>Pracovní doba</dt><dd>{{ site.hodiny_dny }}, {{ site.hodiny }}</dd></div>
+        <div><dt>Dojezd</dt><dd>z Prahy 11</dd></div>
+      </dl>
     </div>
     {% include "_formular.html" %}
   </div>

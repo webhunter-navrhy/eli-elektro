@@ -1,0 +1,7 @@
+{% macro ikona(n) %}<svg viewBox="0 0 48 48" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+{% if n=='dum' %}<path d="M6 23 24 8l18 15M11 20v20h26V20M20 40V28h8v12"/>
+{% elif n=='budova' %}<path d="M10 42V8h20v34M30 18h8v24M4 42h40M16 15h8M16 22h8M16 29h8M16 36h8"/>
+{% elif n=='kancelar' %}<path d="M8 42V12h32v30M4 42h40M15 19h5M28 19h5M15 27h5M28 27h5M21 42v-7h6v7"/>
+{% elif n=='vyroba' %}<path d="M6 42V22l12 8V22l12 8V10h8v32M4 42h40M13 36h3M23 36h3M33 36h3"/>
+{% elif n=='zastrcka' %}<path d="M17 6v9M31 6v9M12 15h24v8a12 12 0 0 1-24 0zM24 35v7"/>
+{% else %}<path d="M27 4 12 26h11l-3 18 16-24H25z"/>{% endif %}</svg>{% endmacro %}

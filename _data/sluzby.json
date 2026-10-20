@@ -1,5 +1,32 @@
 [
-  {"nazev": "Elektroinstalace", "popis": "Revize v bytech a rodinných domech, v bytových domech, kancelářských budovách i ve výrobních prostorách."},
-  {"nazev": "Spotřebiče a stroje", "popis": "Revize spotřebičů s pohyblivým přívodem, pevně připojených spotřebičů a strojů."},
-  {"nazev": "Hromosvody", "popis": "Revize ochrany před bleskem."}
+ {
+  "ikona": "dum",
+  "nazev": "Byty a rodinné domy",
+  "popis": "Provádím revize elektroinstalace v bytech a v rodinné výstavbě."
+ },
+ {
+  "ikona": "budova",
+  "nazev": "Bytové domy",
+  "popis": "Revize společných rozvodů a instalací v bytových domech."
+ },
+ {
+  "ikona": "kancelar",
+  "nazev": "Kancelářské budovy",
+  "popis": "Revize elektroinstalací v kancelářích a administrativních budovách."
+ },
+ {
+  "ikona": "vyroba",
+  "nazev": "Výrobní prostory",
+  "popis": "Revize instalací a strojů ve výrobních prostorách."
+ },
+ {
+  "ikona": "zastrcka",
+  "nazev": "Spotřebiče a stroje",
+  "popis": "Spotřebiče s pohyblivým přívodem, pevně připojené spotřebiče a stroje."
+ },
+ {
+  "ikona": "blesk",
+  "nazev": "Hromosvody",
+  "popis": "Revize ochrany před bleskem."
+ }
 ]
